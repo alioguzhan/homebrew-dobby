@@ -2,7 +2,7 @@ class Dobby < Formula
   desc "Command-line program to track and save your work / study activity"
   homepage "https://github.com/alioguzhan/dobby"
   url "https://github.com/alioguzhan/dobby/archive/v0.1.tar.gz"
-  sha256 "1230602582b5dd42a674c9763169e6ca620800584ed3724ad6f9a80458b4d160"
+  sha256 "9282c7a9daa1863ac17bba5413d35730ca10bb1e3d396ffa1802247f189db7f1"
   license "MIT"
 
   depends_on "cmake" => :build
