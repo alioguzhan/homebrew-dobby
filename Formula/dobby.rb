@@ -1,9 +1,9 @@
 class Dobby < Formula
-  desc "A Command-line tool to track your time and activities."
+  desc "Command line program to track and save your work / study activity."
   homepage "https://github.com/alioguzhan/dobby"
   url "https://github.com/alioguzhan/dobby/archive/v0.1.zip"
   version "v0.1"
-  sha256 "bd9badb66201b51e3ca8834088e5b03c77fec8c9"
+  sha256 "1230602582b5dd42a674c9763169e6ca620800584ed3724ad6f9a80458b4d160"
   license "MIT"
 
   depends_on "cmake" => :build
@@ -17,4 +17,3 @@ class Dobby < Formula
     system "make", "test"
   end
 end
-
