@@ -13,6 +13,6 @@ class Dobby < Formula
   end
 
   test do
-    system "make", "test"
+    system "false"
   end
 end
