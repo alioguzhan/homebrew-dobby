@@ -9,6 +9,7 @@ class Dobby < Formula
 
   def install
     system "make"
+    system "make", "install"
   end
 
   test do
