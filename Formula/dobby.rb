@@ -5,10 +5,10 @@ class Dobby < Formula
   sha256 "9282c7a9daa1863ac17bba5413d35730ca10bb1e3d396ffa1802247f189db7f1"
   license "MIT"
 
-  depends_on "cmake" => :build
+  depends_on "make" => :build
 
   def install
-    system "mmake"
+    system "make"
     system "make", "install"
   end
 
