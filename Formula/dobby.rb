@@ -3,6 +3,7 @@ class Dobby < Formula
   homepage "https://github.com/alioguzhan/dobby"
   url "https://github.com/alioguzhan/dobby/releases/download/v0.2/dobby-v0.2.tar.gz"
   sha256 "e91d6075525dfcd6eca0df0f7a037d354844bc4e83a0bd2f093d8e7b761de87a"
+  version "0.2"
   license "MIT"
 
   depends_on "make" => :build
